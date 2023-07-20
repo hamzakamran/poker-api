@@ -1,0 +1,28 @@
+{
+	"name": "poker-api",
+	"version": "1.0.0",
+	"description": "Express API for poker simulations.",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hamzakamran/poker-api.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/hamzakamran/poker-api/issues"
+	},
+	"homepage": "https://github.com/hamzakamran/poker-api#readme",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^16.3.1",
+		"express": "^4.18.2"
+	},
+	"devDependencies": {
+		"nodemon": "^3.0.1"
+	}
+}
