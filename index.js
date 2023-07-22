@@ -13,7 +13,10 @@ app.use("/", require("./api/health"));
 app.use("/simulate", require("./api/simulate"));
 
 app.use((err, req, res, next) => {
-	res.status(500).json({ error: "Internal Server Error", details: err });
+	res.status(500).json({
+		error: "Internal Server Error",
+		details: err.message,
+	});
 });
 
 app.listen(PORT, (err) => {

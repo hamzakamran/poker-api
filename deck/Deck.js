@@ -1,4 +1,4 @@
-const generateDeck = require("../util/helper");
+const { generateDeck } = require("../util/helper");
 
 class Deck {
 	constructor() {
