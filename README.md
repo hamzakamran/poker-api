@@ -1,2 +1,3 @@
 # poker-api
-Express API for poker simulations.
+
+API for Texas No Limit Hold'em
